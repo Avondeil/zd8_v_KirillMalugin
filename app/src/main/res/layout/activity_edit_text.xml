@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".EditTextActivity"
+android:background="@color/green">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/addzad"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/backbutton"
+        android:onClick="calendaronclick"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="12dp"
+        >
+
+    </ImageButton>
+</RelativeLayout>
+<RelativeLayout
+    android:layout_width="410dp"
+    android:layout_height="300dp"
+    android:layout_marginTop="120dp">
+
+    <TextView
+        android:id="@+id/twored"
+        android:layout_width="312dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/edittextbig"
+        android:paddingLeft="10dp"
+        android:paddingBottom="65dp"
+        android:textSize="18dp">
+
+    </TextView>
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">prakt8</string>
+    <string name="register">Регистрация</string>
+    <string name="cinema">Вечерний поход в кино</string>
+    <string name="cinemacollega">Идем в кино с коллегами!</string>
+    <string name="_10_02_2021">10.02.2021</string>
+    <string name="_19_40">19:40</string>
+    <string name="ozon">Пункт выдачи на ул. Ленина, 103</string>
+    <string name="autoservice">Запись в автосервис</string>
+    <string name="autoshare">Сдать автомобиль в автосервис на ул.Бисертская, д. 14. Замена масла</string>
+    <string name="alarm">Добавить будильник</string>
+    <string name="list">Добавить задачу</string>
+    <string name="listzad">Список дел</string>
+    <string name="listcase">Список дел</string>
+    <string name="alarmtop">Будильник</string>
+    <string name="addzad">Информация о деле</string>
+    <string name="opisaniezad">Описание задачи</string>
+</resources>
